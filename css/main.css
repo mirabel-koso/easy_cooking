@@ -1,0 +1,72 @@
+body {
+  background-color: red;
+}
+
+h1 {
+  font-size: 4.5em;
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+  font-family: "Lobster" ,"cursive";
+  color: yellow;
+  text-shadow: 0 0 10px black;
+}
+
+p {
+  font-size: 2.5em;
+  font-family: "Roboto";
+  text-align: center;
+  font-weight: bold;
+}
+
+form {
+  text-align: center;
+}
+
+#textArea {
+  padding: 1.5px;
+  height: 30px;
+  width: 30%;
+  color: black;
+  font-size: 1.5em;
+}
+
+#searchButton {
+  width: 5%;
+  height: 43px;
+  color: black;
+  font-size: 0.9em;
+}
+
+#searchResult img {
+  display: inline-block;
+  width: 40%;
+  border-radius: 20%;
+  border: 2px solid red;
+  text-align: center;
+}
+
+#searchResult {
+  display: inline-block;
+  background-color: red;
+}
+
+#searchResult span {
+  font-size: 2.6em;
+}
+
+.fudList {
+  width: 30%;
+  margin-right: 0;
+  font-size: 0.5em;
+  display: inline-block;
+  text-align: center;
+}
+
+.image {
+  height: 200px;
+}
+
+li:nth-child(3n+3) {
+  margin-bottom: 50px;
+}
